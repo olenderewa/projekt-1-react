@@ -1,0 +1,55 @@
+.specialists {
+  background: #f1f1f1;
+  padding: 50px 0;
+}
+
+.specialist {
+  display: flex;
+}
+
+.name {
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.lists {
+  font-size: 18px;
+  line-height: 21px;
+}
+.subtitle-specialists {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #152d41;
+  margin-bottom: 80px;
+}
+.specialist:nth-of-type(even) {
+  text-align: right;
+  flex-direction: row-reverse;
+}
+
+.specialist-info-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.specialist-img1,
+.specialist-img2 {
+  min-width: 197px;
+  height: 197px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.specialist-img1 {
+  margin-right: 60px;
+  margin-bottom: 20px;
+  background-image: url("../../../public/assets/IMG_20210112_220805.jpg");
+}
+
+.specialist-img2 {
+  margin-left: 60px;
+  background-image: url("../../../public/assets/IMG_20210112_221200.jpg");
+}

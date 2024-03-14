@@ -1,0 +1,51 @@
+.header .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header {
+  height: calc(100vh - 50px);
+  background: url("../../../public/assets/background.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.shadow {
+  background: rgba(0, 0, 0, 0.15);
+  height: 100%;
+}
+
+.title {
+  width: 60%;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.subtitle {
+  margin: 44px 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.offer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 164px;
+  height: 40.74px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  border: 3px solid #ffffff;
+  transition: 1s;
+}
+
+.offer-btn:hover {
+  background: #ffffff;
+  color: black;
+}

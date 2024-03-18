@@ -7,8 +7,8 @@ function Offers() {
       <div className="container">
         <h2 className="subtitle-offers">Czym zajmuje się nasza firma?</h2>
         <div className="offers-container">
-          {offers.map((offer) => (
-            <div className="box">
+          {offers.map((offer, index) => (
+            <div className="box" key={index}>
               <p className={`${offer.isNew ? "new-offer" : null}`}>
                 {offer.name}
               </p>

@@ -4,7 +4,7 @@ function Navigation() {
   return (
     <nav className="navigation">
       <div className="container">
-        <a href="" className="company-name">
+        <a href="/#" className="company-name">
           moja firma
         </a>
         <ul className="links-list">
@@ -17,7 +17,7 @@ function Navigation() {
             </a>
           </li>
           <li>
-            <a href="" className="disable">
+            <a href="/#" className="disable">
               kontakt
             </a>
           </li>
